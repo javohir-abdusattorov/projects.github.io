@@ -2,7 +2,7 @@ const PROJECTS = [
 	{
 		title: "Coursera",
 		work: "Full project",
-		description: "Online kurslar savdosi uchun qilingan proyekt. Foydalanuvchi kurs qo'shib, uni sotishi(sayt valutasida) va undan kelgan pulga o'zi kurs sotib olishi mumkin. Bundan tashqari foydalanuvchi sotib olgan kursiga kommentariya qoldirishi, unga baho berishi(reyting) va o'zining kurslariga chegirma qo'yib sotishi mumkin(misol uchun bir kursga 25-maygacha 14%'li chegirma qoyishi mumkin)",
+		description: "Onlayn kurslar savdosi uchun platforma. Foydalanuvchilar o'zlarini kurslarini qo'shishi va boshqa foydalanuvchilar qo'shgan kurslarni sotib olishlari mumkin. Savdo sayt valyutasida qilinadi. Foydalanuvchilar o'z kurslariga chegirma qo'yishlari mumkin. Bunda kurs egasi chegirma foizini va chegirma qachon tugashini belgilaydi. Asosiy sahifada esa eng katta chegirma foizga ega kurs barcha foydalanuvchiga tavsiya qilinadi. Undan tashqari foydalanuvchi sotib olgan kurslariga kommentariya qoldirishi, unga baho berishi(reyting) mumkin.",
 		lib: "Nest.js | TypeScript",
 		database: "PostgreSQL",
 		orm: "Typeorm",
@@ -14,7 +14,7 @@ const PROJECTS = [
 	{
 		title: "Litsey",
 		work: "Full project",
-		description: "Litsey uchun boshqaruv tizimi. Litsey davomati, guruh va talaba jurnallari, onlayn dars jarayonini o'z ichiga oladi. Va saytdan litsey rahbari(direktor), rahbar o'rinbosarlari(zauchlar), o'qituvchi va o'quvchi foyldalanishi kerak",
+		description: "Litseylar uchun boshqaruv tizimi. Boshqaruv tizim talabalar davomatini, talabalarning har bir fandan jurnalini, online ta'limni va talabalarning umumiy ma'lumotlarini o'z ichiga oladi. Tizimda bundan tashqari boshqa funksiyalar juda ko'p.",
 		lib: "Express.js | JavaScript",
 		database: "MongoDB",
 		orm: "Mongoose",
@@ -26,7 +26,7 @@ const PROJECTS = [
 	{
 		title: "Shoppers",
 		work: "Backend",
-		description: "E-commerce proyekt. AliExpress'ga funksional o'xshatib qilingan proyekt",
+		description: "E-commerce sayt. Sayt tovarlarni online sotish bilan shug'ullanadi. Savdo AliExpress platformasiga o'xshab qilinadi: brendlar admin bilan kelishgan holda ro'yxatdan o'tkaziladi, va ular o'zini tovarlarini sotishni boshlaydi. Yetkazib berishni admin amalga oshiradi. Tovar xaridorga ma'qul kelmasa, u tovarni reytingini pasaytirishi, tovarni qaytarib yuborishi mumkin bo'ladi. Va brendning ham reytingi pasayadi bu bilan.",
 		lib: "Express.js | JavaScript",
 		database: "MongoDB",
 		orm: "Mongoose",
@@ -38,7 +38,7 @@ const PROJECTS = [
 	{
 		title: "Mathclub",
 		work: "Full project",
-		description: "Matematike bo'yicha online kurslar do'koni",
+		description: "Matematika bo'yicha darslar sotuvi bilan shug'ullanadigan platforma. Darslar abituriyentlar va maktab o'quvchilari uchun yuklanadi. Darslar modul - mavzu - dars tartibida yuklanadi va birinchi 3ta mavzu barcha foydaluvchi uchun bepul bo'ladi. To'lov Payme orqali amalga oshiriladi",
 		lib: "Express.js | JavaScript",
 		database: "MongoDB",
 		orm: "Mongoose",
@@ -50,7 +50,7 @@ const PROJECTS = [
 	{
 		title: "Invan",
 		work: "Backend",
-		description: "E-commerce",
+		description: "Tovar ishlab chiqaruvchilar uchun ichki tizim. Tizim tovarlarni nazorat qilish uchun tayyorlangan.",
 		lib: "Express.js | JavaScript",
 		database: "MongoDB",
 		orm: "Mongoose",
