@@ -21,7 +21,7 @@ const PROJECTS = [
 		frontend: "Html/Css/jQuery",
 		other: ["MVC architecture", "Export to exel"],
 		github: "https://github.com/Javohir-Abdusattorov/Litsey",
-		direct: null,
+		direct: "https://lyceum-main.herokuapp.com/auth/login/",
 	},
 	{
 		title: "Shoppers",
