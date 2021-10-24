@@ -4,10 +4,4 @@ new Vue({
   data: {
     projects: PROJECTS
   },
-  methods: {
-
-  },
-  computed: {
-
-  },
 })

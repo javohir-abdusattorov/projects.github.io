@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Projects</title>
+	<link rel="icon" href="img/logo.png">
 	<link rel="stylesheet" href="lib-fontawesome/css/all.min.css">
 	<link rel="stylesheet" href="lib-bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
@@ -15,21 +16,21 @@
 	
 		<div class="mt-4 col-md-10 mx-auto">
 			<div v-for="project in projects" :key="project.title" class="project p-3 mb-5 rounded-right border-primary shadow bg-white">
-				<h3 class="mb-4">{{ project.title }} <span class="bg-dark text-warning px-3 pb-1 d-inline-block rounded-25 small font-weight-500">{{ project.work }}</span></h3>
+				<h3 class="mb-4">{{ project.title }} <span class="bg-dark text-warning px-3 py-1 d-inline-block rounded-25 small font-weight-500" style="font-size: 20px">{{ project.work }}</span></h3>
 				<p>{{ project.description }}</p>
 				
-				<div class="d-flex pt-3 border-top ">
+				<div class="d-flex pt-3 border-top">
 					<div class="col-md-6 pl-0">
-						<p>Library: <span class="text-white bg-primary px-1 pb-1 rounded">{{ project.lib }}</span></p>
-						<p>Database: <span class="text-white bg-primary px-1 pb-1 rounded">{{ project.database }}</span>, ORM: <span class="text-white bg-primary px-1 pb-1 rounded">{{ project.orm }}</span></p>
-						<p v-if="project.frontend">Frontend: <span class="text-white bg-primary px-1 pb-1 rounded">{{ project.frontend }}</span></p>
+						<p>Library: <span class="text-white bg-primary px-1 py-1 rounded">{{ project.lib }}</span></p>
+						<p>Database: <span class="text-white bg-primary px-1 py-1 rounded">{{ project.database }}</span>, ORM: <span class="text-white bg-primary px-1 py-1 rounded">{{ project.orm }}</span></p>
+						<p v-if="project.frontend">Frontend: <span class="text-white bg-primary px-1 py-1 rounded">{{ project.frontend }}</span></p>
 					</div>
 					<div class="col-md-6">
 						<p v-if="project.other.length">Other features: 
-							<span v-for="name of project.other" :key="name" class="text-white bg-primary px-1 pb-1 mr-2 rounded">{{ name }}</span>
+							<span v-for="name of project.other" :key="name" class="text-white bg-primary px-1 py-1 mr-2 rounded">{{ name }}</span>
 						</p>
-						<p v-if="project.github"><i class="fab fa-github"></i> Github: <a :href="project.github" target="_blank" class="text-white bg-primary px-1 pb-1 rounded">Link</a></p>
-						<p v-if="project.direct"><i class="fas fa-link"></i> Demo: <a :href="project.direct" target="_blank" class="text-white bg-primary px-1 pb-1 rounded">Link</a></p>
+						<p v-if="project.github"><i class="fab fa-github"></i> Github: <a :href="project.github" target="_blank" class="text-white bg-primary px-1 py-1 rounded">Link</a></p>
+						<p v-if="project.direct"><i class="fas fa-link"></i> Demo: <a :href="project.direct" target="_blank" class="text-white bg-primary px-1 py-1 rounded">Link</a></p>
 					</div>
 				</div>
 			</div>

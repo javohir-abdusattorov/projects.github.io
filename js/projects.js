@@ -1,4 +1,16 @@
 const PROJECTS = [
+	// {
+	// 	title: "Bibip",
+	// 	work: "Full project",
+	// 	description: "E-commerce. Bolalar o'yinchoqlari va shu kategoriyadagi tovarlar savdosi bilan shugullunadigan sayt",
+	// 	lib: "Nest.js | TypeScript",
+	// 	database: "PostgreSQL",
+	// 	orm: "Typeorm",
+	// 	frontend: "Vue.js | Nuxt",
+	// 	other: ["Click", "Payme", "SMS Authentication"],
+	// 	github: null,
+	// 	direct: "https://bibip.uz",
+	// },
 	{
 		title: "Coursera",
 		work: "Full project",
